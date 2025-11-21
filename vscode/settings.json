@@ -1,0 +1,138 @@
+{
+	// Ai
+	"chat.disableAIFeatures": true,
+	"chat.commandCenter.enabled": false,
+
+	// Telemetry
+	"telemetry.feedback.enabled": false,
+	"telemetry.telemetryLevel": "off",
+
+	// Updates
+	"update.mode": "none",
+
+	// Accessibility
+	"editor.accessibilitySupport": "off",
+
+	// Font
+	"editor.fontSize": 20,
+	"editor.fontWeight": 500,
+	"editor.fontLigatures": false,
+
+	// Wrapping
+	"editor.wordWrapColumn": 80,
+	// "editor.wordWrap": "bounded",
+
+	// Tabs
+	"editor.tabSize": 2,
+
+	// Formatting
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+
+	"editor.cursorSurroundingLines": 1,
+
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+
+	// Breadcrumbs
+	"breadcrumbs.enabled": false,
+
+	// Minimap
+	"editor.minimap.enabled": false,
+
+	// Sidebar
+	"workbench.activityBar.location": "hidden",
+
+	// Code tabs
+	"workbench.editor.showTabs": "none",
+	"window.density.editorTabHeight": "compact",
+	// "workbench.sideBar.location": "right",
+
+	// Extensions
+	"extensions.ignoreRecommendations": true,
+
+	// Command center/Headbar
+	"workbench.layoutControl.enabled": false,
+	"window.customTitleBarVisibility": "never",
+	"window.commandCenter": false,
+
+	// Menu
+	"window.menuStyle": "custom",
+
+	// Status bar
+	"workbench.statusBar.visible": false,
+
+	// Startup
+	"workbench.startupEditor": "none",
+
+	// Folding
+	"editor.folding": false,
+
+	// Cursor
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+	"editor.cursorBlinking": "solid",
+
+	// Suggestions
+	"editor.suggest.preview": true,
+	"editor.suggestSelection": "first",
+
+	// Lines
+	"editor.lineNumbers": "relative",
+	"editor.renderLineHighlight": "none",
+
+	// "editor.glyphMargin": false,
+
+	// Scrolling
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.stickyScroll.enabled": false,
+
+	"editor.occurrencesHighlight": "off",
+	"editor.hideCursorInOverviewRuler": true,
+
+	"editor.scrollBeyondLastLine": true,
+
+	"editor.smoothScrolling": true,
+
+	// Explorer
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+
+	// Colors
+	"workbench.colorTheme": "Kanagawa",
+
+	// Sizes
+	"window.zoomLevel": 0.4,
+
+	// Newbie help window
+	"workbench.tips.enabled": false,
+
+	// Empty final line adding
+	"files.insertFinalNewline": true,
+
+	// Vertical guides
+	"workbench.tree.renderIndentGuides": "none",
+
+	// Actions (e.g. split, close and more)
+	"workbench.editor.editorActionsLocation": "hidden",
+
+	// Icons
+	"workbench.iconTheme": "flow-dim",
+	"flow-icons.folderColor": "gray",
+
+	// -- LANGUAGES --
+	// Rust-lang
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer",
+		"editor.formatOnSave": true
+	},
+
+	"[toml]": {
+		"editor.defaultFormatter": "tamasfe.even-better-toml",
+
+		"editor.formatOnSave": true
+	}
+}
+
